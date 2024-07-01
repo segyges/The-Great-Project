@@ -65,7 +65,7 @@ The Arguments from Various Disabilities is the objection from the paper which se
 
 > These arguments take the form, "I grant you that you can make machines do all the things
 you have mentioned but you will never be able to make one to do X." Numerous features
-X are suggested in this connexion I offer a selection:
+X are suggested in this connexion. I offer a selection:
 Be kind, resourceful, beautiful, friendly, have initiative, have a sense of humour, tell right
 from wrong, make mistakes, fall in love, enjoy strawberries and cream, make some one
 fall in love with it, learn from experience, use words properly, be the subject of its own
