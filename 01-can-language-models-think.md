@@ -2,7 +2,7 @@
 
 > The Analytical Engine has no pretensions whatever to *originate* anything. It can do *whatever we know how to order it to perform*. It can follow analysis; but it has no power of anticipating any analytical relations or truths.
 >
-> -- Ada Lovelace, "Notes on the Analytical Engine", (1843)
+> -- Ada Lovelace, "Notes on the Analytical Engine" (1843)
 
 > I propose to consider the question, "Can machines think?" This should begin with definitions of the meaning of the terms "machine" and "think." The definitions might be framed so as to reflect so far as possible the normal use of the words, but this attitude is dangerous, [...]
 >
@@ -19,7 +19,7 @@ signs [37], i.e. pairings of form and meaning. But the training data
 for LMs is only form; they do not have access to meaning. Therefore,
 claims about model abilities must be carefully characterized.
 >
-> -- Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell, "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜", (2021)
+> -- Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell, "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜" (2021)
 
 ## 1. The Question
 
