@@ -87,6 +87,8 @@ The objection is this:
 
 This very modern and subtle argument was written in 1843.
 
-After the arguments from various disabilities, this is the argument that is the most commonly repeated today. Saying that a language model is a "stochastic parrot" or saying they "only have success in tasks that can be approached by manipulating linguistic form" are simply ways of restating it. Sometimes, these arguments are made cautiously and with reference to some alternative category of programs than the ones being discussed which would be capable of originality; more often, there is no alternative offered; frequently, this is stated categorically, as if it applies to all possible programs.
+After the arguments from various disabilities, this is the argument that is the most commonly repeated today. Saying that a language model is a "stochastic parrot" or saying they "only have success in tasks that can be approached by manipulating linguistic form" are simply ways of restating it. Sometimes, these arguments are made cautiously. When made cautiously, these statements state that some category of language model, X, cannot be original, but that perhaps some other category of language models, Y, might. More often, there is no Y; the statement is only that the types of models we actually use cannot be original. Frequently, these types of arguments have no qualifiers and seem to state that no program can ever be original.
 
 The core dispute about whether modern language models can think is, fundamentally, whether we think Ada was right about this in general or whether this applies specifically to the models we have now. I would answer no to both. It is enduringly impressive that she managed to ask the question at all nearly two centuries early.
+
+## 5. New Objections
