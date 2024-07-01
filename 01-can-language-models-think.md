@@ -17,7 +17,7 @@ claims about model abilities must be carefully characterized.
 >
 > -- Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell, "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜", (2021)
 
-## 1 The Question
+## 1. The Question
 
 Can language models think?
 
@@ -27,7 +27,7 @@ What does it mean for a language model to think? Any normal use of the word "thi
 
 This is a very neat solution to the problem. If we accept that humans think, and that human thought can be utilized fully in written text, then anything which cannot be discerned from a human in written text must also be thinking.
 
-## 2 The Turing Test
+## 2. The Turing Test
 
 We will take as given that humans think. We may not want to take for granted that human thought can be utilized fully in written text. Much of what humans are able to do does not involve language at all, much less written text.
 
@@ -37,7 +37,7 @@ There are many human endeavors besides writing. Thought and care are expressed a
 
 Turing's test, as originally proposed, is not perfect. In brief: An interrogator exchanges messages, entirely with text, with another human respondent and a computer program, which they know only as A and B. Eventually, the interrogator has to choose which of A or B is a computer, and which is a human. Turing does not specify many peripheral details of administering the test, such as who the humans involved are. Many purported "Turing Tests" have been devised and administered since the test was first proposed. As a general rule, they are executed in some manner that gives the program some advantage, such that some plausible research project then existing has some chance of claiming to have made progress against the test. In cases where the test does not advantage the program, the program, of course, performs poorly.
 
-## 3 A Stricter Turing Test
+## 3. A Stricter Turing Test
 
 We prefer to contemplate a test that is delivered under circumstances that disadvantage the program as much as possible. We need some reasonable population of interrogators and respondents, and we consider a program to pass this test only if no method of choosing or preparing human interrogators and respondents for the test, including allowing them to perform the test many times, allowed them to discern each other from the program more than 50% of the time. This would have to apply to interrogators, respondents, and to pairs thereof. Passing information outside of the text-only test environment is the only prohibition, and for any interrogator and respondent that perform multiple sessions, their past mutual history should be available both to them and to the program. Any program passing such a test would be producing text which was indistinguishable from that produced by a human, and therefore able to think as well as humans do. When choosing its next message, the program would be performing an operation at least as complex as the one the human did.
 
@@ -45,6 +45,6 @@ No program currently existing passes this very strict test. Unfortunately, most 
 
 If we accept that humans at large do think, we would like to relax this test somewhat to include them. We will continue to assume that we are comparing only trials of the Turing test where the interrogator is the most skilled, such that in many tests between many interrogators and many human respondents, we measure only how successful the best interrogators are at discerning humans from programs. We will require of the human respondents only that they be drawn from some reasonably sized population more or less at random, and that they sincerely be attempting to convince the interrogator that they are human during each trial. We would have to concede that a computer program was thinking as well as a human if its percentile was at least 50%. If the program had any notable disability relative to most humans, the interrogators could exploit that and its percentile would be far below 50%.
 
-## 4 Old Objections
+## 4. Old Objections
 
 We will take for granted that there is some program which could possibly be constructed which would pass such a test. Turing's paper on the test itself helpfully addresses most of the plausible-seeming objections to the notion that some program could, in principle, think, such as that humans have souls and machines do not.
