@@ -57,11 +57,11 @@ We will take for granted that there is some program which could possibly be cons
 
 Many of the objections Turing covers to the notion that a program could think are still commonly used. In many cases the modern strain of the objection adds some new detail. Any of these objections, if valid, would apply just as well to the models we actually have as it would to the general concept of a program. It will be useful to go over these objections briefly.
 
-The first, Turing calls "The Theological Objection", and it is the assertion that humans have souls and machines cannot. Modern constructions asserting that all humans have something that machines cannot have, such as 'qualia', all uniformly restate this with the choice of word changed. Disentangling all such arguments is beyond the scope of this document; the reader is invited to return when such objections no longer seem reasonable to them.
+The first, Turing calls "The Theological Objection", and it is the assertion that humans have souls and machines cannot have souls. Modern constructions asserting that all humans have something that machines cannot have, such as 'qualia', all uniformly restate this with the choice of word changed. Disentangling all such arguments is beyond the scope of this document; the reader is invited to return when such objections no longer seem reasonable to them.
 
 The Mathematical Objection and The Argument from Consciousness, which Turing covers, also follow this pattern. In this case, the things that humans have and machines cannot have are "mathematical completeness and consistency" and "consciousness". One of the related modern constructions asserts that human consciousness is somehow quantum mechanical; the only evidence offered seems to be that quantum mechanics is very mysterious.
 
-The Arguments from Various Disabilities is the objection from the paper which seems to be the most common now, and Turing's text deserves to be exerpted here:
+The Arguments from Various Disabilities is the objection from the paper which seems to be the most common currently, and Turing's text deserves to be exerpted here:
 
 > These arguments take the form, "I grant you that you can make machines do all the things
 you have mentioned but you will never be able to make one to do X." Numerous features
@@ -79,7 +79,7 @@ To abuse induction the other way: Since Turing wrote in 1950, many such argument
 
 Simply to be contrary: If language models are still bad at math, rhyming, counting letters and spelling, and it is the year 2034 or later, I should be mocked as thoroughly as possible for my naivete here.
 
-We note that we are passing over Lady Lovelace's Objection here. We do this not because it is less interesting than the others, but because it is the most interesting objection, and the most modern. Alan Turing could not possibly have anticipated the types of things we say concerning it now. This objection deserves its own discussion, and benefits immensely from the modern context.
+We note that we are passing over Lady Lovelace's Objection here. We do this not because it is less interesting than the others, but because it is the most interesting objection and the most modern. Alan Turing could not possibly have anticipated the types of things we say concerning it now. This objection deserves its own discussion, and benefits immensely from a modern context.
 
 The objection is this:
 
