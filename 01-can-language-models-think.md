@@ -92,3 +92,59 @@ After the arguments from various disabilities, this is the argument that is the 
 The core dispute about whether modern language models can think is, fundamentally, whether we think Ada was right about this in general or whether this applies specifically to the models we have now. I would answer no to both. It is enduringly impressive that she managed to ask the question at all nearly two centuries early.
 
 ## 5. New Objections
+
+Before we return to Lady Lovelace's objection, we will go over objections to current-generation systems that could not have been proposed in the 1800s. Many of these have similar flavors to those that Turing covered. Turing put Lady Lovelace's objection late in his paper, and it would seem he did so wisely. Before you address such an objection directly, it is better to address the many similar objections that often are often hidden in it.
+
+### The Argument from Unimpressive Components
+
+This model is "only" "X", therefore neither it nor anything like it can think (or demonstrate any other property I do not think X can have).
+
+X is variously: Math, matrices, statistics, electricity, training data. I am sure there are many more.
+
+We can also make this argument against people, where X can be: atoms, chemicals, electricity, molecules, carbon compounds, enzymes, burning sugars, electricity, random mutations.
+
+Human beings are "just" apes retrofitted with some extra fatty tissue loaded with ion pumps. We call this "brain matter". Each individual part is perhaps unimpressive, or can at least be described so it sounds unimpressive. In aggregate, they are a person.
+
+Complex things can have many simple parts. In fact: It is difficult to think of any complex thing that does not have many simple parts. One sound is noise; many sounds can be music. Visual art is just lines, or brushstrokes; books are just letters.
+
+Anything can be made to sound trivial if it is described as "just" what it is made of. Everything is made of something, and whatever it is made of will generally be some reasonable number of reasonably simply things.
+
+This argument is bad; people should not be persuaded by it. People will continue to be persuaded by it because it is good rhetoric. X, whatever X is, is unimpressive or boring. Therefore, anything made of X must also be unimpressive or boring.
+
+If we want to be correct, we should avoid falling for such arguments. We have many counterexamples, so we know that they are not always true.
+
+### Argument from Architecture
+
+Some category of program, X, can never do X. Therefore, it cannot think. (Possibly we mean to imply that no model of any kind can think).
+
+In some limited cases this is true. A single layer neural network cannot compute the XOR function, for one famous example. Certainly, human thought is at least as complex as XOR, so anything which cannot compute XOR cannot think. This is a good argument against a single-layer perceptron being able to think.
+
+Generally speaking this is untrue of any broad category of architectures still in use in 2024, the most common of which is the transformer. They are turing-complete, or as close to turing-complete as anything which has finite memory can be. (For any unfamiliar: This means that it can perform any computation.) There are a few theoretical arguments pertaining to the complexities of the circuits they can learn, but most of them do not seem to make them less general than a human being, which also have only a finite ability to deal with complexity.
+
+It is very difficult to be sure, given that current architectures are turing-complete and that they are often modified in many ways, that they categorically cannot do any particular thing. It is plausible that no current version of a transformer can some specific thing efficiently enough to make doing that thing feasible on any hardware we can make. However, architectures are varied upon constantly; our efficiency at completing the same task has increased by several orders of magnitude in recent years. To state that a given architecture, exactly as it currently exists, cannot do any particular thing efficiently is not an argument not to use that architecture at all. It is an argument to modify it, as we can and have done many times.
+
+As we generalize the approach: Either some architecture can think, or no architecture can. If some architecture can think, any specific disability you can find in a current architecture will give you a hint about what must be true of an architecture that could think.
+
+Generally speaking, the principle of "stacking an arbitrary number of matrices in some clever way" has consistently proven that it solves any problem we can find a way to use it on. It is a general method, the same way writing is a general method of conveying meaning and computer programs are general purpose methods of doing math. Arguing against a specific architecture is either arguing in favor of some alternative architecture or failing to consider that alternatives could exist.
+
+### Argument from Training Modality
+
+From our opening, we know the argument that "languages are systems of signs [37], i.e. pairings of form and meaning. But the training data for LMs is only form; they do not have access to meaning."
+
+This was not even true when that paper was published. Models already existed (e.g. CLIP, and much earlier, YOLO) which directly paired signs (words or sentences) with their meanings (pictures of objects). Image generation already existed as a field, where the generation task is always to pair sign (the prompt) to meaning (the output image). We currently have models which mix audio, video and text freely in input and output. They are still, compared to pure text models, a work in progress; it is not really disputed whether they work at all. As a general rule, they do.
+
+You could claim that a model that could identify you from a picture did not know the "meaning" of who you were, but then you would have to claim the same thing of another person who recognized you in a picture. What is the person doing, in identifying you, that the model is not?
+
+The answer is nothing; the task of recognition is the same. We can claim that "meaning" is somehow impossible to put into any form whatsoever, that digital data coming from video cameras and microphones is somehow "less meaningful" than the sense inputs of our eyes and ears. This seems like a way of smuggling in the Theological Objection again; that when a person does something it is imbued with a soul, or with meaning, but when a machine does the same task it is not. Data in a computer is "just" electricity, but our thoughts are made of electricity too. If we assume that humans are special and distinguished, and only human acts can have "meaning", then of course machines cannot think; but the argument is circular.
+
+We can also restate this as an argument from disability: if a human had some disability (sight, hearing) but still had language, we would not say that they did not understand meaning.
+
+We can narrowly give the argument this: It is possible that some tasks are prohibitively difficult to learn from scratch without certain types of data. Humans with disabilities still have human brains, and human brains were formed under the requirements imposed on them by all the senses that humans typically have. Models trained to produce audio of human speech, but not given any text to help them learn what words are, typically produce a babble of disconnected syllables and voice sounds. The same model, when given text to learn from along with audio of someone speaking the words, can learn to produce speech from written text. For many years, and possibly still today, the first such well-known model was the voice of the Google Assistant, which comes built into every Android phone. [cite wavenet, probably]
+
+This is not an argument against models in general being able to think, or understand language. At most, this applies strictly to models with only written text as training data. Even there it is empirically questionable; we know that models trained strictly on language data can sometimes produce mostly reasonable answers to questions about the physical world, such as: "Here we have a book, 9 eggs, a laptop, a bottle and a nail. Please tell me how to stack them onto each other in a stable manner." [cite the thing]
+
+Text is rich with meaning. As humans, we are always trying to find new ways to condense our thoughts, to condense meaning, into words. Training a language model is the task of extracting as much meaning from that text as possible. It is possible that some things cannot be learned, or learned well, or learned efficiently, only from text; but it is strange to assert that the text itself has no meaning. Of course it has meaning. It is perhaps the densest form of human meaning, where a person can put the residue of a lifetime of thoughts and feelings into less space than a phone background.
+
+### Lady Lovelace's Original Objection
+
+### Lady Lovelace's Objection, Revisited
