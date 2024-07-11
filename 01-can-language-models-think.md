@@ -35,7 +35,7 @@ This is a very neat solution to the problem. If we accept that humans think, and
 
 We will take as given that humans think. We may not want to take for granted that human thought can be expressed fully in written text. Much of what humans are able to do does not involve language at all, much less written text.
 
-To rephrase the assertion: to master human language as well as a human does suffices to demonstrate human equivalent thinking. Seemingly the simplest and most direct argument for this is that nothing humans ever do is categorically more complex than language. There are an astronomical number of possible things to say; choosing one of them as well as a human does simply cannot be done without having human-equivalent thinking.
+To rephrase the assertion: to master human language as well as a human does suffices to demonstrate human equivalent thinking. Seemingly the simplest and most direct argument for this is that nothing humans ever do is categorically more complex than language. There are an astronomical number of possible things to say; choosing one of them as well as a human does simply cannot be done without being at least equal to a human.
 
 Considering the cases of humans with various disabilities should also convince us that writing alone can express the presence of human thought. We do not doubt that people who are blind and deaf from birth experience thought because they are not able to speak or to write with conventional implements. Any of us can be paralyzed completely by injury. In cases, people have been limited to expressing themselves by well timed blinks to dictate writing. Such writings do not fail to express human thought; on the contrary, the sheer labor involved in such a thing seems almost guaranteed to mean that far more thought goes into every detail.
 
@@ -77,7 +77,7 @@ Turing's remarks state, it seems correctly, that all such assertions are made ou
 
 To abuse induction the other way: Since Turing wrote in 1950, many such arguments regarding various disabilities have been made and proven wrong. Chess and Go were popular such objections; natural language comprehension was another, and Turing cites it directly. Turing had to die and half a century had to pass before he was definitively proven right about computer programs being able to use words properly. We have no idea how long it will be before any given argument is proven wrong, but it would not seem wise, given past progress, to assume that the trend will reverse itself.
 
-Simply to be contrary: If language models are still bad at math, rhyming, counting letters and spelling, and it is the year 2034 or later, I should be mocked as thoroughly as possible for my naivete here.
+Simply to be contrary: If cutting edge language models are still notably bad at math, rhyming, counting letters and spelling, and it is the year 2034 or later, I should be mocked as thoroughly as possible for my naivete here.
 
 We note that we are passing over Lady Lovelace's Objection here. We do this not because it is less interesting than the others, but because it is the most interesting objection and the most modern. Alan Turing could not possibly have anticipated the types of things we say concerning it now. This objection deserves its own discussion, and benefits immensely from a modern context.
 
@@ -139,7 +139,7 @@ The answer is nothing; the task of recognition is the same. We can claim that "m
 
 We can also restate this as an argument from disability: if a human had some disability (sight, hearing) but still had language, we would not say that they did not understand meaning.
 
-We can narrowly give the argument this: It is possible that some tasks are prohibitively difficult to learn from scratch without certain types of data. Humans with disabilities still have human brains, and human brains were formed under the requirements imposed on them by all the senses that humans typically have. Models trained to produce audio of human speech, but not given any text to help them learn what words are, typically produce a babble of disconnected syllables and voice sounds. The same model, when given text to learn from along with audio of someone speaking the words, can learn to produce speech from written text. For many years, and possibly still today, the first such well-known model was the voice of the Google Assistant, which comes built into every Android phone. [cite wavenet, probably]
+We can narrowly give the argument this: It is possible that some tasks are prohibitively difficult to learn from scratch without certain types of data. Humans with disabilities still have human brains, and human brains were formed under the requirements imposed on them by all the senses that humans typically have. If we were all deaf as a species, it seems plausible that we would not have developed language. In the opposite direction, models trained to produce audio of human speech, but not given any text to help them learn what words are, typically produce a babble of disconnected syllables and voice sounds. The same model, when given text to learn from along with audio of someone speaking the words, can learn to produce speech from written text. For many years, and possibly still today, the first such well-known model was the voice of the Google Assistant, which comes built into every Android phone. [cite wavenet, probably]
 
 This is not an argument against models in general being able to think, or understand language. At most, this applies strictly to models with only written text as training data. Even there it is empirically questionable; we know that models trained strictly on language data can sometimes produce mostly reasonable answers to questions about the physical world, such as: "Here we have a book, 9 eggs, a laptop, a bottle and a nail. Please tell me how to stack them onto each other in a stable manner." [cite the thing]
 
@@ -147,4 +147,71 @@ Text is rich with meaning. As humans, we are always trying to find new ways to c
 
 ### Lady Lovelace's Original Objection
 
+To shorten it: "Programs cannot be original".
+
+We have simple examples which contradict this, and which it would have been difficult to anticipate at the time.
+
+Although the program a computer is running is simple, the result can be more complex than its maker could have anticipated. If whoever programmed the computer did not know the result in advance, the computer has, in fact, "originated" something. To exclude random outputs we have to add another rule: To be meaningfully original, we will also require that the output be something that a human would have needed to use at least some effort to produce in similar circumstances.
+
+We see this with game playing easily. Programs for chess and go beat the people who made them. Because these games are well-documented, we know that the moves the program chooses are often original; no human has ever made that specific move before, and the move is better than any human would have chosen.
+
+This is the difference between memorizing data and generalizing. Let us use a visual aid. Unfortunately, there will be math.
+
+![Image of a line on graphing paper which passes through the middle of some pseudo-random points.](media/image.png)
+
+This line fits these data points, assuming this data has noise. If you had a program that simply output all of the points, it would be memorizing. If your program takes the points as input and generates the line as output, it generalizes. (The curious may note that the line does not fit the points exactly; ordinarily, we expect input data to have random noise in it.)
+
+Game playing programs generalize. They play moves, and games, which are very good and which no human has ever played. The input data does not contain the things that the program outputs. Humans cannot predict what these programs do, and the only programs likely to predict what a good game playing program does are comparably good game playing programs.
+
+This is not even controversial, and it feels somewhat silly to say at all, much less to say it many ways.
+
+It is fair to object that games are by their nature small, and perhaps what we consider "original" is too broad to be captured by them. This is a fair objection. It is worth noting: This was not commonly said before computers became much better than humans at these games. Once upon a time, it was not uncommon to hear it said that only a truly sentient being could play chess well. We know now that this is not true.
+
+Lady Lovelace also states that a program cannot anticipate analytic relations or truths (ie, do mathematical proofs). As it happens computers often do this now; she could not have known that this would happen. At most we can say that computers are only pretty good, and not excellent, at doing mathematical proofs now. I do not fear that it will age poorly if I say that by the time I am old, I expect mathematics, like chess, to be something that everyone just accepts computers are better at than humans.
+
 ### Lady Lovelace's Objection, Revisited
+
+#### Weak originality
+
+We turn back, now, to our primary question: Can language models think? Or in the words of the objection: Are they original?
+
+This objection still seems to have some weight in the current year. Language models are called "stochastic parrots", "blurry jpegs", "glorified autocomplete" or "plagiarism machines". We can admit that these terms are good rhetoric. Parrots, jpegs, autocomplete and plagiarism are all unimpressive. Comparing anything to them is a good way to convince people that it is unimpressive, too. We will do our best to ignore this, and to consider only whether or not language models and other programs in the current research paradigm are original.
+
+First let us test for a sort of weak originality: If I give you two random words, and ask you to use them both as many times as possible in a short story, surely you cannot do this without telling a story that has never been told before, nor could you do it if you did not understand the words you were given and the English language. It is possible your first story would be very obvious, and someone may have told a similar one once. To make sure what we are asking for is something new, we could require you to tell more than one such story, with each not resembling the last one.
+
+If I asked a human to do this, and they did it successfully, I would be convinced that they spoke English, knew both words, and could write things nobody else had ever written before. If I said they were "unoriginal", what I would actually mean is that their story was bad. Perhaps it is unoriginal in the sense that it is similar to other stories in some deep way; all of the sentences can be original, but the story can still be "flat" and not explore anything in any way that did not feel cliche. We will call this sort of originality "strong originality", and we will postpone dealing with it until somewhat later.
+
+For this test, we draw from [eff_large.wordlist]([eff_large.wordlist](https://github.com/keepassxreboot/keepassxc/blob/afe634d4f2a0f32e96ea720289262a4be90afc0f/share/wordlists/eff_large.wordlist)), a list of 7776 random words that is used for password generation. We draw 'morally' and 'tactics', which feels too easy somehow. Random outputs often feel disturbingly non-random; I apologize for this. We include the generated text [elsewhere](media/Crafting%20Moral%20Tactics.md) to avoid cluttering this document. Several rounds of dialogue were necessary to try to avoid anything that felt like a cliche, and therefore guaranteed to be "unoriginal". Dialogue ended when the author became bored, and felt like the point was made.
+
+In general, the language model demonstrates amply that it understands English, knows the meanings of the words 'morally' and 'tactics' quite well, and can use both together in a way that is consistent with their meanings. When troubled to avoid cliches, it produces stories with progressively more ridiculous and unlikely premises and makes a reasonable effort to coherently elaborate upon those premises. It seems guaranteed that the total output is both good English, and original, in the sense of never having appeared anywhere before.
+
+We will note that the phrase "The Rhythmic Moralist" appears to not exist anywhere on the Internet as of this date. This will no longer be true when the above-linked file is indexed, making this almost certainly an original use of that specific phrase. (I am sorry.) Looking for "morality", "tax code" and "interpretive dance" produces few results, most of them very long written pieces of transcripts which seem to have mentioned them all in the course of a very long essay, but never all of them together. (One of them is [on Will Wheaton's blog from 2005, for some reason](https://wilwheaton.net/2005/12/)). We can safely assume that the premise for the story is original, if bad.
+
+We can state fairly definitively that language models are sometimes original with language in the same sense that reasonable but not superhuman chess-playing programs are sometimes original at making good chess moves. The experiment is pretty trivial, and seems somewhat ridiculous to have run at all. There are many other ways of demonstrating that language models are original in this way; this is just the first one that came to mind.
+
+If we had any serious doubt that we would get a similar result for any two words with the same nudging, we could do this in a script and have a boundless supply of stories. We could check if these stories coherently used language to elaborate on their subject matter, and go looking to see if their titles and premises had ever appeared anywhere else. This would not be a good use of anyone's time, because we all already know how it will turn out.
+
+Language models generalize; they understand English (or their language of origin) as well as or better than an average native speaker for most purposes. They understand common and uncommon words, phrases and concepts and they can put together sentences and stories and ideas that have never existed before from them. They do this millions of times a day, every day, and it costs much less money to have them do this than it would to have a human do it.
+
+A certain researcher [cite] stated that his personal test was whether or not language models understood his jokes; now they do. (He seems somewhat worried, therefore, that AI might kill us all; we will save this question for a later document.) Anyone who had such a litmus test that boiled down to the model understanding English has probably seen it passed recently by contemporary models. If they haven't, they will soon.
+
+We seem to have very quickly forgotten this, but once upon a time it would have been common to say that this would mean that we had solved AI as a whole, and that such a program would surely be as smart as a human in every way. Much like chess, this has turned out to not be true; language models understand langauge, but they have various disabilities and in some ways are clearly not as smart as humans.
+
+We can say weakly that language models are original; they write things a human would have to think about, and that are not repetitions of anything that has ever been written before. In parallel: We can say that they do generally understand, and can write coherently in, natural languages, like English.
+
+In humans, we would call this thinking. If you watched a student write out any of the things a language model can write, it would be bizarre to say that they were just repeating things from their past, like a parrot. Parrots cannot tell original stories. You could accuse the student of plagiarism but you would never find what they were copying from because there isn't one.
+
+And yet: We are anchored, in humans, by the knowledge of what human thought is like in its full complexity. We fill in the blanks; we infer from the story that there is a complete human mind, capable of complete human thought behind it. Our language models do not seem to have one of those yet. If we infer that they do from the fact that they are as capable as humans in some way, we will make many serious mistakes.
+
+Whether language models think, then, depends on where you set the bar. To be sure the language model could think as well as a human, you would have to be sure that it could do all of the things that humans could do. They cannot yet do this. And yet: Much of what they currently do are things which we would know to a certainty required thinking if a human did them. They demonstrate understanding of natural language and originality in using it; we would never say that a human who equalled them in those ways wasn't thinking.
+
+Thought exists on a spectrum. You can often see that humans who cannot use language at all are still thinking. Because we are human too, their actions show us their thoughts. Someone who cannot speak can be handed a drink, and if they think the drink is remarkably bad you will generally understand them. Animals think; their thoughts are not generally that deep, but you can see them express recognition, curiosity, or surprise, all of which require them to know things, want to know them, or come to know them and find that it violates their previous knowledge.
+
+I would argue that current language models do think to some degree, but they do not think as humans do. Neither the development of any specific language model nor the line of research as a whole follows human lines; not for any existing human, nor for humanity as a whole. We cannot expect them to parallel humans in what they can do; they can be much worse than us at some things, and much better at others. Although they can think in the sense of "use language intelligently", they do not have coherent personalities or motivations; they do not really seem like they are beings to us.
+
+Why does this distinction matter?
+
+#### Strong originality
+
+<!-- Note to self, this is probably not a good first paragraph for this section. >
+Unlike chess-playing programs, language models are not yet better than all humans at everything within their domain. Language is a much larger domain, and surpassing human mastery of all the uses of language is much more of an endeavor than surpassing human mastery of chess.
