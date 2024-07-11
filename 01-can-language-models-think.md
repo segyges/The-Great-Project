@@ -213,5 +213,5 @@ Why does this distinction matter?
 
 #### Strong originality
 
-<!-- Note to self, this is probably not a good first paragraph for this section. >
+<!-- Note to self, this is probably not a good first paragraph for this section. --->
 Unlike chess-playing programs, language models are not yet better than all humans at everything within their domain. Language is a much larger domain, and surpassing human mastery of all the uses of language is much more of an endeavor than surpassing human mastery of chess.
