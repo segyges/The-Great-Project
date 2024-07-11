@@ -195,7 +195,7 @@ Language models generalize; they understand English (or their language of origin
 
 A certain researcher [cite] stated that his personal test was whether or not language models understood his jokes; now they do. (He seems somewhat worried, therefore, that AI might kill us all; we will save this question for a later document.) Anyone who had such a litmus test that boiled down to the model understanding English has probably seen it passed recently by contemporary models. If they haven't, they will soon.
 
-We seem to have very quickly forgotten this, but once upon a time it would have been common to say that this would mean that we had solved AI as a whole, and that such a program would surely be as smart as a human in every way. Much like chess, this has turned out to not be true; language models understand langauge, but they have various disabilities and in some ways are clearly not as smart as humans.
+We seem to have very quickly forgotten this, but once upon a time it would have been common to say that this would mean that we had solved AI as a whole, and that such a program would surely be as smart as a human in every way. Much like chess, this has turned out to not be true; language models understand language, but they have various disabilities and in some ways are clearly not as smart as humans.
 
 We can say weakly that language models are original; they write things a human would have to think about, and that are not repetitions of anything that has ever been written before. In parallel: We can say that they do generally understand, and can write coherently in, natural languages, like English.
 
