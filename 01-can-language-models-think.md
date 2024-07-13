@@ -230,6 +230,9 @@ Unlike chess-playing programs, language models are not yet better than all human
 ## Citations
 
 Vaswani, et al. "Attention Is All You Need." arXiv preprint arXiv:1706.03762 (2017). <a id="citation-01" > </a>
+
 van den Oord, et al. "WaveNet: A Generative Model for Raw Audio." arXiv preprint arXiv:1609.03499 (2016). <a id="citation-02" > </a>
+
 Bubeck, et al. "Sparks of Artificial General Intelligence: Early experiments with GPT-4." arXiv preprint arXiv:2303.12712 (2023). <a id="citation-03" > </a>
+
 Knight, Will. "What Really Made Geoffrey Hinton Into an AI Doomer." Wired, 2023. https://www.wired.com/story/geoffrey-hinton-ai-chatgpt-dangers/. <a id="citation-04"> </a>
