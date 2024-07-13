@@ -217,13 +217,17 @@ If you set your expectations of current models by assuming they do think, but th
 
 #### Strong originality
 
-We had to admit, in setting this criteria, that we sometimes mean something stronger than this when we ask if a program can be "original". We sometimes mean, essentially, that we will not accept that programs can be "original" until they can be original in all the same ways humans can be. Our current models do not meet this bar.
+We had to admit, in setting this criteria, that we sometimes mean something stronger than this when we ask if a program can be "original". We sometimes mean, essentially, that we will not accept that programs can be "original" until they can be original in all the same ways humans can be. Our current models do not meet this bar. Certainly a program that could pass a strictly-administered Turing test would. This raises the question: What separates such programs from each other?
 
-There is a related objection which has, I think, some validity. Currently, language models are trained to simply guess the next "token", where a token is a few letters or words or sometimes a piece of punctuation. This objection causes them to be prone to memorizing, rather than generalizing. We would like to repeat from above that they do generalize over at least basic English. It is not unlikely 
+There is a related objection which has, I think, some validity. Currently, language models are trained to simply guess the next "token", where a token is a few letters or words or sometimes a piece of punctuation. This objective causes them to be prone to memorizing, rather than generalizing. For example, most good language models currently have many digits of pi memorized.[cite fluffy] This tendency to memorize is usually used to argue that language models cannot generalize at all, which isn't true. We know that they do. It has been argued, in our opinion persuasively, that the current generation of language models are, nevertheless, very hampered in generalizing by this objective.[cite LeCun, probably]
+
+What does it mean to generalize, but not as far as we would like? For this, we turn back to the difference between memorizing and generalizing. We can draw a further distinction between interpolating, and extrapolating.
 
 Let us check the graph again:
 
 ![Image of a line on graphing paper which passes through the middle of some pseudo-random points.](media/image.png)
+
+This line is correct for points that we can see. If there were more points, which we had never measured, further to the right or the left or the top or the bottom, the line might be completely incorrect. For points that are close to the points we have measured, we are interpolating; for close that are far away, we are extrapolating. We can draw more than one type of line through these points; some of them will extrapolate correctly, and others badly.
 
 Unlike chess-playing programs, language models are not yet better than all humans at everything within their domain. Language is a much larger domain, and surpassing human mastery of all the uses of language is much more of an endeavor than surpassing human mastery of chess. Language models are currently "original" in the same sense that a reasonably good, but not great, chess program might sometimes do original things. They are not original the way that a great player would be said to be original.
 
