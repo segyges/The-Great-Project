@@ -219,16 +219,14 @@ If you set your expectations of current models by assuming they do think, but th
 
 We had to admit, in setting this criteria, that we sometimes mean something stronger than this when we ask if a program can be "original". We sometimes mean, essentially, that we will not accept that programs can be "original" until they can be original in all the same ways humans can be. Our current models do not meet this bar.
 
-There is a related objection which has, I think, some validity. Currently, language models are trained on 
+There is a related objection which has, I think, some validity. Currently, language models are trained on
 
 Let us check the graph again:
 
 ![Image of a line on graphing paper which passes through the middle of some pseudo-random points.](media/image.png)
 
-
-
 Unlike chess-playing programs, language models are not yet better than all humans at everything within their domain. Language is a much larger domain, and surpassing human mastery of all the uses of language is much more of an endeavor than surpassing human mastery of chess. Language models are currently "original" in the same sense that a reasonably good, but not great, chess program might sometimes do original things. They are not original the way that a great player would be said to be original.
 
 ## Citations
 
-Vaswani, et al. "Attention Is All You Need." arXiv preprint arXiv:1706.03762 (2017). {#citation-01}
+Vaswani, et al. "Attention Is All You Need." arXiv preprint arXiv:1706.03762 (2017). <a id="citation-01" > </a>
