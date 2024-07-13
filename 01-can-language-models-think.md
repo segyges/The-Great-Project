@@ -21,13 +21,13 @@ claims about model abilities must be carefully characterized.
 >
 > -- Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell, "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜" (2021)
 
-(We endeavor to mark any technical vocabulary which it is not necessary for the reader to care about with an asterisk: *)
+(We endeavor to mark any technical vocabulary which it is not necessary for the reader to care about with an asterisk: \*)
 
 ## 1. The Question
 
 Can language models think?
 
-We should define these terms. For our purposes, a "language model" is some computer program, running on real hardware, which produces text as its output. As of this writing, such a model is probably a descendant of the Transformer* architecture (Vaswani et al, 2017)[<sup>1</sup>](#citation-01). This architecture and the techniques surrounding it (gradient descent*, cross-entropy loss*, et cetera) are very important for recent research in the field, but the only essential characteristic of a "language model" is that it produces text as its output. We will start with this general definition, and then work our way towards the specifics of the types of models that exist today.
+We should define these terms. For our purposes, a "language model" is some computer program, running on real hardware, which produces text as its output. As of this writing, such a model is probably a descendant of the Transformer\* architecture (Vaswani et al, 2017)[<sup>1</sup>](#citation-01). This architecture and the techniques surrounding it (gradient descent\*, cross-entropy loss\*, et cetera) are very important for recent research in the field, but the only essential characteristic of a "language model" is that it produces text as its output. We will start with this general definition, and then work our way towards the specifics of the types of models that exist today.
 
 What does it mean for a language model to think? Any normal use of the word "think" does not seem like it will work here. Ultimately, what we mean when we say "think" is "able to do the sorts of things that humans do". This insight is, of course, originally from Alan Turing. There is a specific test, the "Turing test", that he proposes. This test directly measures the computer program (which he calls a "machine") against a human, such that we judge a program to certainly be thinking if and only if the text the program outputs can pass for human.
 
@@ -101,7 +101,7 @@ Before we return to Lady Lovelace's objection, we will go over objections to cur
 
 This model is "only" "X", therefore neither it nor anything like it can think (or demonstrate any other property I do not think X can have).
 
-X is variously: Math, matrices*, statistics, electricity, training data. I am sure there are many more.
+X is variously: Math, matrices\*, statistics, electricity, training data. I am sure there are many more.
 
 We can also make this argument against people, where X can be: atoms, chemicals, electricity, molecules, carbon compounds, enzymes, burning sugars, electricity, random mutations.
 
@@ -119,15 +119,15 @@ If we want to be correct, we should avoid falling for such arguments. We have ma
 
 Some category of program, X, can never do X. Therefore, it cannot think. (Possibly we mean to imply that no model of any kind can think).
 
-In some limited cases this is true. A single layer neural network cannot compute the XOR* function, for one famous example. Certainly, human thought is at least as complex as XOR, so anything which cannot compute XOR cannot think. This is a good argument against a single-layer perceptron being able to think.
+In some limited cases this is true. A single layer neural network cannot compute the XOR\* function, for one famous example. Certainly, human thought is at least as complex as XOR, so anything which cannot compute XOR cannot think. This is a good argument against a single-layer perceptron being able to think.
 
-Generally speaking this is untrue of any broad category of architectures still in use in 2024, the most common of which is the transformer. They are turing-complete*, or as close to turing-complete as anything which has finite memory can be. (For any unfamiliar: This means that it can perform any computation.) There are a few theoretical arguments pertaining to the complexities of the circuits they can learn, but most of them do not seem to make them less general than a human being, which also have only a finite ability to deal with complexity.
+Generally speaking this is untrue of any broad category of architectures still in use in 2024, the most common of which is the transformer. They are Turing-complete\*, or as close to Turing-complete as anything which has finite memory can be. (For any unfamiliar: This means that it can perform any computation.) There are a few theoretical arguments pertaining to the complexities of the circuits they can learn, but most of them do not seem to make them less general than a human being, which also have only a finite ability to deal with complexity.
 
 It is very difficult to be sure, given that current architectures are turing-complete and that they are often modified in many ways, that they categorically cannot do any particular thing. It is plausible that no current version of a transformer can some specific thing efficiently enough to make doing that thing feasible on any hardware we can make. However, architectures are varied upon constantly. Our efficiency at completing the same task has increased many times over in recent years. To state that a given architecture, exactly as it currently exists, cannot do any particular thing efficiently is not an argument not to use that architecture at all. It is an argument to modify it, as we can and have done many times.
 
 As we generalize the approach: Either some architecture can think, or no architecture can. If some architecture can think, any specific disability you can find in a current architecture will give you a hint about what must be true of an architecture that could think.
 
-Generally speaking, the principle of "stacking an arbitrary number of matrices* in some clever way" has consistently proven that it solves any problem we can find a way to use it on. It is a general method of solving problems for which a solution is difficult to write out precisely, the same way writing is a general method of conveying meaning and computer programs are general purpose methods of doing well-defined math. Arguing against a specific architecture is either arguing in favor of some alternative architecture or failing to consider that alternatives could exist.
+Generally speaking, the principle of "stacking an arbitrary number of matrices\* in some clever way" has consistently proven that it solves any problem we can find a way to use it on. It is a general method of solving problems for which a solution is difficult to write out precisely, the same way writing is a general method of conveying meaning and computer programs are general purpose methods of doing well-defined math. Arguing against a specific architecture is either arguing in favor of some alternative architecture or failing to consider that alternatives could exist.
 
 ### Argument from Training Modality
 
