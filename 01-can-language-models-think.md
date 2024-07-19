@@ -2,11 +2,11 @@
 
 > The Analytical Engine has no pretensions whatever to *originate* anything. It can do *whatever we know how to order it to perform*. It can follow analysis; but it has no power of anticipating any analytical relations or truths.
 >
-> -- Ada Lovelace, "Notes on the Analytical Engine" (1843)
+> -- Ada Lovelace, "Notes on the Analytical Engine" (1843)[<sup>1</sup>](#citation-01)
 
 > I propose to consider the question, "Can machines think?" This should begin with definitions of the meaning of the terms "machine" and "think." The definitions might be framed so as to reflect so far as possible the normal use of the words, but this attitude is dangerous, [...]
 >
-> -- Alan Turing, "Computing Machinery and Intelligence" (1950)
+> -- Alan Turing, "Computing Machinery and Intelligence" (1950)[<sup>2</sup>](#citation-02)
 
 > As we discuss in §5, LMs are not performing natural language understanding (NLU), and only have success in tasks that can be approached by manipulating linguistic form [...]
 >
@@ -19,7 +19,7 @@ signs [37], i.e. pairings of form and meaning. But the training data
 for LMs is only form; they do not have access to meaning. Therefore,
 claims about model abilities must be carefully characterized.
 >
-> -- Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell, "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜" (2021)
+> -- Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell, "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜" (2021) [<sup>3</sup>](#citation-03)
 
 (We endeavor to mark any technical vocabulary which it is not necessary for the reader to care about with an asterisk: \*)
 
@@ -27,7 +27,7 @@ claims about model abilities must be carefully characterized.
 
 Can language models think?
 
-We should define these terms. For our purposes, a "language model" is some computer program, running on real hardware, which produces text as its output. As of this writing, such a model is probably a descendant of the Transformer\* architecture (Vaswani et al, 2017)[<sup>1</sup>](#citation-01). This architecture and the techniques surrounding it (gradient descent\*, cross-entropy loss\*, et cetera) are very important for recent research in the field, but the only essential characteristic of a "language model" is that it produces text as its output. We will start with this general definition, and then work our way towards the specifics of the types of models that exist today.
+We should define these terms. For our purposes, a "language model" is some computer program, running on real hardware, which produces text as its output. As of this writing, such a model is probably a descendant of the Transformer\* architecture (Vaswani et al, 2017)[<sup>4</sup>](#citation-04). This architecture and the techniques surrounding it (gradient descent\*, cross-entropy loss\*, et cetera) are very important for recent research in the field, but the only essential characteristic of a "language model" is that it produces text as its output. We will start with this general definition, and then work our way towards the specifics of the types of models that exist today.
 
 What does it mean for a language model to think? Any normal use of the word "think" does not seem like it will work here. Ultimately, what we mean when we say "think" is "able to do the sorts of things that humans do". This insight is, of course, originally from Alan Turing. There is a specific test, the "Turing test", that he proposes. This test directly measures the computer program (which he calls a "machine") against a human, such that we judge a program to certainly be thinking if and only if the text the program outputs can pass for human.
 
@@ -133,7 +133,7 @@ Generally speaking, the principle of "stacking an arbitrary number of matrices\*
 
 From our opening, we know the argument that "languages are systems of signs [37], i.e. pairings of form and meaning. But the training data for LMs is only form; they do not have access to meaning."
 
-This was not even true when that paper was published. Models already existed (e.g. CLIP (Radford et al., 2021)[<sup>10</sup>](#citation-10), and much earlier, YOLO (Redmon et al., 2015)[<sup>9</sup>](#citation-09)) which directly paired signs (words or sentences) with their meanings (pictures of objects). Image generation already existed as a field, where the generation task is always to pair sign (the prompt) to meaning (the output image). We currently have models which mix audio, video and text freely in input and output. They are still, compared to pure text models, a work in progress, but it is not really disputed whether they work at all. As a general rule, they do.
+This was not even true when that paper was published. Models already existed (e.g. CLIP (Radford et al., 2021)[<sup>5</sup>](#citation-05), and much earlier, YOLO (Redmon et al., 2015)[<sup>6</sup>](#citation-06)) which directly paired signs (words or sentences) with their meanings (pictures of objects). Image generation already existed as a field, where the generation task is always to pair sign (the prompt) to meaning (the output image). We currently have models which mix audio, video and text freely in input and output. They are still, compared to pure text models, a work in progress, but it is not really disputed whether they work at all. As a general rule, they do.
 
 You could claim that a model that could identify you from a picture did not know the "meaning" of who you were, but then you would have to claim the same thing of another person who recognized you in a picture. What is the person doing, in identifying you, that the model is not?
 
@@ -141,9 +141,9 @@ The answer is nothing: the task of recognition is the same. We can claim that "m
 
 We can also restate this as an argument from disability: if a human had some disability (sight, hearing) but still had language, we would not say that they did not understand meaning.
 
-We can narrowly give the argument this: It is possible that some tasks are prohibitively difficult to learn from scratch without certain types of data. Humans with disabilities still have human brains, and human brains were formed under the requirements imposed on them by all the senses that humans typically have. If we were all deaf as a species, it seems plausible that we would not have developed language. In the opposite direction, models trained to produce audio of human speech, but not given any text to help them learn what words are, typically produce a babble of disconnected syllables and voice sounds. The same model, when given text to learn from along with audio of someone speaking the words, can learn to produce speech from written text. For many years, and possibly still today, the first such well-known model was the voice of the Google Assistant, which comes built into every Android phone. (van den Oord et al., 2016)[<sup>2</sup>](#citation-02)
+We can narrowly give the argument this: It is possible that some tasks are prohibitively difficult to learn from scratch without certain types of data. Humans with disabilities still have human brains, and human brains were formed under the requirements imposed on them by all the senses that humans typically have. If we were all deaf as a species, it seems plausible that we would not have developed language. In the opposite direction, models trained to produce audio of human speech, but not given any text to help them learn what words are, typically produce a babble of disconnected syllables and voice sounds. The same model, when given text to learn from along with audio of someone speaking the words, can learn to produce speech from written text. For many years, and possibly still today, the first such well-known model was the voice of the Google Assistant, which comes built into every Android phone. (van den Oord et al., 2016)[<sup>7</sup>](#citation-07)
 
-This is not an argument against models in general being able to think, or understand language. At most, this applies strictly to models with only written text as training data. Even there it is empirically questionable. We know that models trained strictly on language data can sometimes produce mostly reasonable answers to questions about the physical world, such as: "Here we have a book, 9 eggs, a laptop, a bottle and a nail. Please tell me how to stack them onto each other in a stable manner." (Bubeck et al., 2023)[<sup>3</sup>](#citation-03)
+This is not an argument against models in general being able to think, or understand language. At most, this applies strictly to models with only written text as training data. Even there it is empirically questionable. We know that models trained strictly on language data can sometimes produce mostly reasonable answers to questions about the physical world, such as: "Here we have a book, 9 eggs, a laptop, a bottle and a nail. Please tell me how to stack them onto each other in a stable manner." (Bubeck et al., 2023)[<sup>8</sup>](#citation-08)
 
 Text is rich with meaning. As humans, we are always trying to find new ways to condense our thoughts, to condense meaning, into words. Training a language model is the task of extracting as much meaning from that text as possible. It is possible that some things cannot be learned, or learned well, or learned efficiently, only from text. It is nevertheless strange to assert that the text itself has no meaning. Of course it has meaning. It is perhaps the densest form of human meaning, where a person can put the residue of a lifetime of thoughts and feelings into less space than a phone background.
 
@@ -187,7 +187,7 @@ For this test, we draw from [eff_large.wordlist](https://github.com/keepassxrebo
 
 In general, the language model demonstrates amply that it understands English, knows the meanings of the words 'morally' and 'tactics' quite well, and can use both together in a way that is consistent with their meanings. When troubled to avoid cliches, it produces stories with progressively more ridiculous and unlikely premises and makes a reasonable effort to coherently elaborate upon those premises, using its assigned words and subjects in surprising but intelligent ways. It seems guaranteed that the total output is both good English, and original, in the sense of never having appeared anywhere before.
 
-We will note that the phrase "The Rhythmic Moralist" appears to not exist anywhere on the Internet as of this date. This will no longer be true when the above-linked file is indexed, making this almost certainly an original use of that specific phrase. (I am sorry.) Looking for "morality", "tax code" and "interpretive dance" produces few results, most of them very long written pieces or transcripts which seem to have mentioned them all in the course of a large amount of text(Wheaton, 2005)[<sup>4</sup>](#citation-04), but never all of them together. We can safely assume that the premise for the story is original, if bad.
+We will note that the phrase "The Rhythmic Moralist" appears to not exist anywhere on the Internet as of this date. This will no longer be true when the above-linked file is indexed, making this almost certainly an original use of that specific phrase. (I am sorry.) Looking for "morality", "tax code" and "interpretive dance" produces few results, most of them very long written pieces or transcripts which seem to have mentioned them all in the course of a large amount of text(Wheaton, 2005)[<sup>9</sup>](#citation-09), but never all of them together. We can safely assume that the premise for the story is original, if bad.
 
 We can state fairly definitively that language models are sometimes original with language in the same sense that reasonable but not superhuman chess-playing programs, or good human chess players, are sometimes original at making good chess moves. The experiment is pretty trivial, and seems somewhat ridiculous to have run at all. There are many other ways of demonstrating that language models are original in this way. This is just the first one that came to mind.
 
@@ -195,7 +195,7 @@ If we had any serious doubt that we would get a similar result for any two words
 
 Language models generalize: they understand English (or their language of origin) as well as or better than an average native speaker for most purposes. They understand common and uncommon words, phrases and concepts and they can put together sentences and stories and ideas that have never existed before from them. We can say weakly that language models are original: they write things a human would have to think about, and that are not repetitions of anything that has ever been written before. They do this millions of times a day, every day.
 
-A certain researcher stated that his personal test was whether or not language models understood his jokes, and now they do. (He seems somewhat worried, therefore, that AI might kill us all. We will save this question for a later document.) Anyone who had such a litmus test, which boiled down to the model understanding English, has probably seen it passed recently by contemporary models. If they haven't, they will soon. (Knight, 2023)[<sup>5</sup>](#citation-05)
+A certain researcher stated that his personal test was whether or not language models understood his jokes, and now they do. (He seems somewhat worried, therefore, that AI might kill us all. We will save this question for a later document.) Anyone who had such a litmus test, which boiled down to the model understanding English, has probably seen it passed recently by contemporary models. If they haven't, they will soon. (Knight, 2023)[<sup>10</sup>](#citation-10)
 
 We seem to have very quickly forgotten this, but once upon a time it would have been common to say that this would mean that we had solved AI as a whole, and that such a program would surely be as smart as a human in every way. Much like chess, this has turned out to not be true. Language models understand language, but they have various serious disabilities and in some ways are clearly not as smart as humans.
 
@@ -219,7 +219,7 @@ If you set your expectations of current models by assuming they do think, but th
 
 We had to admit, in setting this criteria, that we sometimes mean something stronger than this when we ask if a program can be "original". We sometimes mean, essentially, that we will not accept that programs can be "original" until they can be original in all the same ways humans can be. Our current models do not meet this bar. Certainly a program that could pass a strictly-administered Turing test would. This raises the question: What separates such programs from each other?
 
-There is a related objection which has, I think, some validity. Currently, language models are trained to simply guess the next "token", where a token is a few letters or words or sometimes a piece of punctuation. This objective causes them to be prone to memorizing, rather than generalizing. For example, most good language models currently have many hundreds or thousands of digits of pi memorized.(@fluffykittnmeow, 2023)[<sup>6</sup>](#citation-06) This tendency to memorize is usually used to argue that language models cannot generalize at all, which isn't true. We know that they do. It has been argued, in our opinion persuasively, that the current generation of language models are, nevertheless, very hampered in generalizing by this objective.(LeCun, 2024)[<sup>7</sup>](#citation-07)
+There is a related objection which has, I think, some validity. Currently, language models are trained to simply guess the next "token", where a token is a few letters or words or sometimes a piece of punctuation. This objective causes them to be prone to memorizing, rather than generalizing. For example, most good language models currently have many hundreds or thousands of digits of pi memorized.(@fluffykittnmeow, 2023)[<sup>11</sup>](#citation-11) This tendency to memorize is usually used to argue that language models cannot generalize at all, which isn't true. We know that they do. It has been argued, in our opinion persuasively, that the current generation of language models are, nevertheless, very hampered in generalizing by this objective.(LeCun, 2024)[<sup>12</sup>](#citation-12)
 
 What does it mean to generalize, but not as far as we would like? For this, we turn back to the difference between memorizing and generalizing. We can draw a further distinction between interpolating, and extrapolating.
 
@@ -231,7 +231,7 @@ This line is correct for points that we can see. If there were more points, whic
 
 ![A blue curved line with a red curved line superimposed over it; after a specific cutoff the red line continues going straight, while the blue line continues curving](/media/01-can-language-models-think/extrapolation.png)
 
-(Wolfram, 2024)[<sup>8</sup>](#citation-08)
+(Wolfram, 2024)[<sup>13</sup>](#citation-13)
 
 The example is contrived, and the subject area covered in more detail in most textbooks on statistics. In case it seems unrealistic that this would apply to the models we actually use today: it isn't, really. Fundamentally, some of what we are having our models do is "out of distribution": it is something that is very different from its input data. We can fit more than one model on the input data, and their behavior will seem the same for similar data but may diverge radically outside of it.
 
@@ -259,21 +259,28 @@ And last: The objections to the "originality" or "reasoning" of language models 
 
 ## Citations
 
-Vaswani, et al. "Attention Is All You Need." arXiv preprint arXiv:1706.03762 (2017). <a id="citation-01" > </a>
+<a id="citation-01">1.</a> Lovelace, Ada. "Notes on the Analytical Engine." In Scientific Memoirs, edited by Richard Taylor, 3:691-731. London: Richard and John E. Taylor, 1843.
 
-van den Oord, et al. "WaveNet: A Generative Model for Raw Audio." arXiv preprint arXiv:1609.03499 (2016). <a id="citation-02" > </a>
+<a id="citation-02">2.</a> Turing, Alan M. "Computing Machinery and Intelligence." Mind 59, no. 236 (1950): 433-460.
 
-Bubeck, et al. "Sparks of Artificial General Intelligence: Early experiments with GPT-4." arXiv preprint arXiv:2303.12712 (2023). <a id="citation-03" > </a>
-Wheaton, Wil. "December 2005." WIL WHEATON dot NET, December 2005. https://wilwheaton.net/2005/12/. <a id="citation-04"> </a>
+<a id="citation-03">3.</a> Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret Shmitchell. "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜" Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (2021): 610-623.
 
-Knight, Will. "What Really Made Geoffrey Hinton Into an AI Doomer." Wired, 2023. https://www.wired.com/story/geoffrey-hinton-ai-chatgpt-dangers/. <a id="citation-05"> </a>
+<a id="citation-04">4.</a> Vaswani, et al. "Attention Is All You Need." arXiv preprint arXiv:1706.03762 (2017).
 
-@fluffykittnmeow. "Posted: Last edited7:03 PM · Dec 20, 2023." X, December 20, 2023. https://x.com/fluffykittnmeow/status/1737639861350269213. <a id="citation-06"> </a>
+<a id="citation-05">5.</a> Radford, et al. "Learning Transferable Visual Models From Natural Language Supervision." arXiv preprint arXiv:2103.00020 (2021).
 
-LeCun, Yann. Interview by Lex Fridman. Lex Fridman Podcast, March 7, 2024. https://lexfridman.com/yann-lecun-3-transcript/. <a id="citation-07"> </a>
+<a id="citation-06">6.</a> Redmon, et al. "You Only Look Once: Unified, Real-Time Object Detection." arXiv preprint arXiv:1506.02640 (2015).
 
-Wolfram, Stephen. [Example of a model failing to extrapolte when fitting a sine curve]. Image in "Can AI Solve Science?" Stephen Wolfram Writings, March 2024. https://writings.stephenwolfram.com/2024/03/can-ai-solve-science. <a id="citation-08"> </a>
+<a id="citation-07">7.</a> van den Oord, et al. "WaveNet: A Generative Model for Raw Audio." arXiv preprint arXiv:1609.03499 (2016).
 
-Redmon, et al. "You Only Look Once: Unified, Real-Time Object Detection." arXiv preprint arXiv:1506.02640 (2015). <a id="citation-09"> </a>
+<a id="citation-08">8.</a> Bubeck, et al. "Sparks of Artificial General Intelligence: Early experiments with GPT-4." arXiv preprint arXiv:2303.12712 (2023).
 
-Radford, et al. "Learning Transferable Visual Models From Natural Language Supervision." arXiv preprint arXiv:2103.00020 (2021). <a id="citation-10"> </a>
+<a id="citation-09">9.</a> Wheaton, Wil. "December 2005." WIL WHEATON dot NET, December 2005. https://wilwheaton.net/2005/12/.
+
+<a id="citation-10">10.</a> Knight, Will. "What Really Made Geoffrey Hinton Into an AI Doomer." Wired, 2023. https://www.wired.com/story/geoffrey-hinton-ai-chatgpt-dangers/.
+
+<a id="citation-11">11.</a> @fluffykittnmeow. "Posted: Last edited7:03 PM · Dec 20, 2023." X, December 20, 2023. https://x.com/fluffykittnmeow/status/1737639861350269213.
+
+<a id="citation-12">12.</a> LeCun, Yann. Interview by Lex Fridman. Lex Fridman Podcast, March 7, 2024. https://lexfridman.com/yann-lecun-3-transcript/.
+
+<a id="citation-13">13.</a> Wolfram, Stephen. [Example of a model failing to extrapolate when fitting a sine curve]. Image in "Can AI Solve Science?" Stephen Wolfram Writings, March 2024. https://writings.stephenwolfram.com/2024/03/can-ai-solve-science.
