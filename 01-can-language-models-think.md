@@ -133,7 +133,7 @@ Generally speaking, the principle of "stacking an arbitrary number of matrices\*
 
 From our opening, we know the argument that "languages are systems of signs [37], i.e. pairings of form and meaning. But the training data for LMs is only form; they do not have access to meaning."
 
-This was not even true when that paper was published. Models already existed (e.g. CLIP, and much earlier, YOLO)[TODO: Add citations] which directly paired signs (words or sentences) with their meanings (pictures of objects). Image generation already existed as a field, where the generation task is always to pair sign (the prompt) to meaning (the output image). We currently have models which mix audio, video and text freely in input and output. They are still, compared to pure text models, a work in progress, but it is not really disputed whether they work at all. As a general rule, they do.
+This was not even true when that paper was published. Models already existed (e.g. CLIP (Radford et al., 2021)[<sup>10</sup>](#citation-10), and much earlier, YOLO (Redmon et al., 2015)[<sup>9</sup>](#citation-09)) which directly paired signs (words or sentences) with their meanings (pictures of objects). Image generation already existed as a field, where the generation task is always to pair sign (the prompt) to meaning (the output image). We currently have models which mix audio, video and text freely in input and output. They are still, compared to pure text models, a work in progress, but it is not really disputed whether they work at all. As a general rule, they do.
 
 You could claim that a model that could identify you from a picture did not know the "meaning" of who you were, but then you would have to claim the same thing of another person who recognized you in a picture. What is the person doing, in identifying you, that the model is not?
 
@@ -273,3 +273,7 @@ Knight, Will. "What Really Made Geoffrey Hinton Into an AI Doomer." Wired, 2023.
 LeCun, Yann. Interview by Lex Fridman. Lex Fridman Podcast, March 7, 2024. https://lexfridman.com/yann-lecun-3-transcript/. <a id="citation-07"> </a>
 
 Wolfram, Stephen. [Example of a model failing to extrapolte when fitting a sine curve]. Image in "Can AI Solve Science?" Stephen Wolfram Writings, March 2024. https://writings.stephenwolfram.com/2024/03/can-ai-solve-science. <a id="citation-08"> </a>
+
+Redmon, et al. "You Only Look Once: Unified, Real-Time Object Detection." arXiv preprint arXiv:1506.02640 (2015). <a id="citation-09"> </a>
+
+Radford, et al. "Learning Transferable Visual Models From Natural Language Supervision." arXiv preprint arXiv:2103.00020 (2021). <a id="citation-10"> </a>
