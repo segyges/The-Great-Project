@@ -233,7 +233,7 @@ This line is correct for points that we can see. If there were more points, whic
 
 (Wolfram, 2024)[<sup>13</sup>](#citation-13)
 
-The example is contrived, and the subject area covered in more detail in most textbooks on statistics. In case it seems unrealistic that this would apply to the models we actually use today: it isn't, really. Fundamentally, some of what we are having our models do is "out of distribution": it is something that is very different from its input data. We can fit more than one model on the input data, and their behavior will seem the same for similar data but may diverge radically outside of it.
+The example is contrived, and the subject area covered in more detail in most textbooks on statistics. In case it seems unrealistic that this would apply to the models we actually use today: it isn't, really. Fundamentally, some of what we are having our models do is "out of distribution": it is something that is very different from its input data. We can fit more than one model on the input data, and the models will tend to fit the data well and be the same as each other as long as they are close to the data, but they may be totally dissimilar from each other and the data further out.
 
 "Weak originality" is interpolating successfully. We argue that models currently do interpolate reasonably well.
 
