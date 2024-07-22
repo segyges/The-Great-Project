@@ -31,11 +31,11 @@ We should define these terms. For our purposes, a "language model" is some compu
 
 What does it mean for a language model to think? Any normal use of the word "think" does not seem like it will work here. Ultimately, what we mean when we say "think" is "able to do all of the sorts of things that humans do". This insight is, implicitly, originally from Alan Turing. There is a specific test, the "Turing test", that he proposes. This test directly measures the computer program (which he calls a "machine") against a human, such that we judge a program to be thinking to the degree that the text the program outputs can pass for human.
 
-This is a very neat solution to the problem. If we accept that humans think, and that human thought can be expressed fully in written text, then anything which cannot be discerned from a human in written text must also be thinking.
+This is a very neat solution to the problem. If we accept that humans think, and that human thought can be completely utilized in written text, then anything which cannot be discerned from a human in written text must also be thinking.
 
 ## 2. The Turing Test
 
-We will take as given that humans think. We may not want to take for granted that human thought can be expressed fully in written text. Much of what humans are able to do does not involve language at all, much less written text.
+We will take as given that humans think. We may not want to take for granted that human thought can be used fully in written text. Much of what humans are able to do does not involve language at all, much less written text.
 
 To rephrase the assertion: to master human language as well as a human does suffices to demonstrate human equivalent thinking. Seemingly the simplest and most direct argument for this is that nothing humans ever do is categorically more complex than language. There are an astronomical number of possible things to say, and choosing one of them as well as a human does simply cannot be done without being at least equal to a human.
 
