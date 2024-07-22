@@ -109,7 +109,7 @@ Human beings are "just" apes retrofitted with some extra fatty tissue loaded wit
 
 Complex things can have many simple parts. In fact: It is difficult to think of any complex thing that does not have many simple parts. One sound is noise, but many sounds can be music. Visual art is just lines, or brushstrokes. Books are just letters.
 
-Anything can be made to sound trivial if it is described as "just" what it is made of. Everything is made of something, and whatever it is made of will generally be some reasonable number of reasonably simply things.
+Anything can be made to sound trivial if it is described as "just" what it is made of. Everything is made of something, and whatever it is made of will generally be some reasonable number of reasonably simple things.
 
 This argument is bad. People should not be persuaded by it. People will continue to be persuaded by it because it is good rhetoric. X, whatever X is, is unimpressive or boring. Therefore, anything made of X must also be unimpressive or boring.
 
