@@ -167,7 +167,7 @@ We see this with game playing easily. Programs for chess and go beat the people 
 
 This is the difference between memorizing data and generalizing. Let us use a visual aid. Unfortunately, there will be math.
 
-![Image of a line on graphing paper which passes through the middle of some pseudo-random points.](media/01-can-language-models-think/image.png)
+![Image of a line on graphing paper which passes through the middle of some pseudo-random points.](media/01-can-language-models-think/interp-extrap-transparent.png)
 
 This line fits these data points, more or less. If you had a program that simply output all of the points, it would be memorizing. If your program takes the points as input and generates the line as output, it generalizes. (The curious may note that the line does not fit the points exactly. This is because we ordinarily expect input data to have random noise in it.)
 
@@ -233,7 +233,7 @@ What does it mean to generalize, but not as far as we would like? For this, we t
 
 Let us check the graph again:
 
-![Image of a line on graphing paper which passes through the middle of some pseudo-random points.](media/01-can-language-models-think/image.png)
+![Image of a line on graphing paper which passes through the middle of some pseudo-random points.](media/01-can-language-models-think/interp-extrap-transparent.png)
 
 This line is correct for points that we can see. If there were more points, which we had never measured, further to the right or the left or the top or the bottom, the line might be completely incorrect. For points that are close to the points we have measured, we are interpolating; for those that are far away, we are extrapolating. We can draw more than one type of line through these points; some of them will extrapolate correctly, and others badly, depending on where all the points we have not sees turn out to be. An illustration with an obviously curved function shows us what can happen when a model is too simple for the data it fits, where the red line is the model and the blue line is the data.
 
